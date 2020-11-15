@@ -56,8 +56,10 @@
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.533">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,9 +86,9 @@
                 android:id="@+id/buku2"
                 android:layout_width="wrap_content"
                 android:layout_height="157dp"
-                android:src="@drawable/_1vuik8nj8l"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
+                android:src="@drawable/_1vuik8nj8l"
                 tools:layout_editor_absoluteX="70dp"
                 tools:layout_editor_absoluteY="373dp" />
 
@@ -100,14 +102,12 @@
                 android:id="@+id/buku3"
                 android:layout_width="wrap_content"
                 android:layout_height="157dp"
-                android:src="@drawable/_782897334536_p0_v2_s550x406"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
+                android:src="@drawable/_782897334536_p0_v2_s550x406"
                 tools:layout_editor_absoluteX="70dp"
                 tools:layout_editor_absoluteY="373dp" />
         </LinearLayout>
-
-
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
