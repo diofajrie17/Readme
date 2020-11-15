@@ -20,3 +20,5 @@ WHY : Agar dapat meningkatkan minat baca atau literasi orang-orang yang dimana s
 
 HOW : Aplikasi ini dibuat dengan memudahkan para pengguna dalam membantu proses penggunaannya, dan kita memilih menggunakan warna tersebut agar lebih menarik pembaca, serta menggunakan gambar-gambar yang menarik
 
+Gambar-gambar penting:
+
