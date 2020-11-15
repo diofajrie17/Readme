@@ -4,7 +4,7 @@ Project HCI
 Anggota Kelompok:
 Dimas Radhitya (1806199972)
 Dio Fajrie Fadlullah (1806200324)
-M Fadil Hafiz (18061
+M Fadil Hafiz (1806148763)
 
 Aplikasi Read.me
 
