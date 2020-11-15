@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="412dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngtreeeducation_training_course_design_concept_5331073" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="19dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/component_62__3" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="412dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nav_btn" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="309dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/buku1"
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a1e_usp9f8l"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="373dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/buku2"
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:src="@drawable/_1vuik8nj8l"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="373dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/buku3"
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:src="@drawable/_782897334536_p0_v2_s550x406"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="373dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
